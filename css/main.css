@@ -1,6 +1,6 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+body{
+    margin: 0px;
+    min-height: 100%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -29,8 +29,12 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    background:#505050;
 }
 
 ul.posts { 
