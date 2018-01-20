@@ -5,4 +5,7 @@ footer{
     width:100%
     text-align:center;
 }
-
+.footDiv{
+    text-align: center;
+    margin: auto;
+}
