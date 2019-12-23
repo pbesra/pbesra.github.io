@@ -9,3 +9,9 @@
     border: 1px solid #c4c4c4;
     border-radius: 8px;
 }
+a{
+    color:#979797;
+}
+a:hover{
+    color:#484848;
+}
